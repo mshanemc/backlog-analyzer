@@ -1,14 +1,21 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    },
-    {
-      "path": "implementation"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "backlogAnalyzer",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.2.0.NEXT"
+        },
+        {
+            "path": "implementation"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "45.0",
+    "packageAliases": {
+        "backlogAnalyzer": "0Ho6A000000k9dOSAQ",
+        "backlogAnalyzer@0.2.0-1": "04t6A000002zgAgQAI"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "45.0"
 }

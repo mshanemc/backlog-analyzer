@@ -8,7 +8,7 @@
         <type>Text</type>
         <label>Name</label>
     </nameField>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <enableSharing>true</enableSharing>
     <enableBulkApi>true</enableBulkApi>
     <enableStreamingApi>true</enableStreamingApi>
