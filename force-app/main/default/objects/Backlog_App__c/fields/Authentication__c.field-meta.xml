@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Authentication__c</fullName>
+    <externalId>false</externalId>
+    <label>Authentication</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Username and password</fullName>
+                <default>false</default>
+                <label>Username and password</label>
+            </value>
+            <value>
+                <fullName>Two factor authentication</fullName>
+                <default>false</default>
+                <label>Two factor authentication</label>
+            </value>
+            <value>
+                <fullName>Single sign-on</fullName>
+                <default>false</default>
+                <label>Single sign-on</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

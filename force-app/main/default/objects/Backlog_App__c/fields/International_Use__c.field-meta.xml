@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>International_Use__c</fullName>
+    <externalId>false</externalId>
+    <label>International Use</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No international rollout - single language and single currency</fullName>
+                <default>false</default>
+                <label>No international rollout - single language and single currency</label>
+            </value>
+            <value>
+                <fullName>Multiple lang and currency (Low to moderate application function regional differences)</fullName>
+                <default>false</default>
+                <label>Multiple lang and currency (Low to moderate application function regional differences)</label>
+            </value>
+            <value>
+                <fullName>Substantially different UIs for different geographies, multiple currencies</fullName>
+                <default>false</default>
+                <label>Substantially different UIs for different geographies, multiple currencies</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

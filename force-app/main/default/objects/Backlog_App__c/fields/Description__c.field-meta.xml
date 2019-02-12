@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Description</label>
+    <type>Text</type>
+    <fullName>Description__c</fullName>
+    <length>255</length>
+    <required>true</required>
+    <unique>false</unique>
+    <externalId>false</externalId>
+    <description>describe the app</description>
+    <inlineHelpText>describe the app</inlineHelpText>
+    <trackHistory>true</trackHistory>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calculations__c</fullName>
+    <externalId>false</externalId>
+    <label>Calculations</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No data based calculations required</fullName>
+                <default>false</default>
+                <label>No data based calculations required</label>
+            </value>
+            <value>
+                <fullName>Validation rules to improve data quality, automate process management by inter-object calculations</fullName>
+                <default>false</default>
+                <label>Validation rules to improve data quality, automate process management by inter-object calculations</label>
+            </value>
+            <value>
+                <fullName>Validation rules based on external systems</fullName>
+                <default>false</default>
+                <label>Validation rules based on external systems</label>
+            </value>
+            <value>
+                <fullName>Extensive calculations based on historical data, statistical model, predictive sources (i.e. risk management)</fullName>
+                <default>false</default>
+                <label>Extensive calculations based on historical data, statistical model, predictive sources (i.e. risk management)</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

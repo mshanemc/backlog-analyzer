@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Volume__c</fullName>
+    <externalId>false</externalId>
+    <label>Data Volume</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Low amount of users (100s), stored records (100k) and API calls</fullName>
+                <default>false</default>
+                <label>Low amount of users (100s), stored records (100k) and API calls</label>
+            </value>
+            <value>
+                <fullName>Medium amount of users (1k), medium records (1m) and API calls</fullName>
+                <default>false</default>
+                <label>Medium amount of users (1k), medium records (1m) and API calls</label>
+            </value>
+            <value>
+                <fullName>Medium amount of users with multiple external (1k), medium records (1m) and high interaction with multiple external systems, API calls</fullName>
+                <default>false</default>
+                <label>Medium amount of users with multiple external (1k), medium records (1m) and high interaction with multiple external systems, API calls</label>
+            </value>
+            <value>
+                <fullName>Store high volume of records (10m), manage transactional and non-transactional data (like senior information)</fullName>
+                <default>false</default>
+                <label>Store high volume of records (10m), manage transactional and non-transactional data (like senior information)</label>
+            </value>
+            <value>
+                <fullName>Store high volume of records (100m), manage transactional and non-transactional data</fullName>
+                <default>false</default>
+                <label>Store high volume of records (100m), manage transactional and non-transactional data</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

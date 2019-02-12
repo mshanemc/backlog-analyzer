@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_Use__c</fullName>
+    <externalId>false</externalId>
+    <label>Mobile Use</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No mobile users</fullName>
+                <default>false</default>
+                <label>No mobile users</label>
+            </value>
+            <value>
+                <fullName>Employee facing mobile app</fullName>
+                <default>false</default>
+                <label>Employee facing mobile app</label>
+            </value>
+            <value>
+                <fullName>Pixel perfect mobile app for internal and external users, offline required</fullName>
+                <default>false</default>
+                <label>Pixel perfect mobile app for internal and external users, offline required</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

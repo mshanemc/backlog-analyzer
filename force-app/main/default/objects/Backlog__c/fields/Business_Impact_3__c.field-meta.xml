@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Impact_3__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Impact 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Revenue Growth</fullName>
+                <default>false</default>
+                <label>Revenue Growth</label>
+            </value>
+            <value>
+                <fullName>Beat the Competitor</fullName>
+                <default>false</default>
+                <label>Beat the Competitor</label>
+            </value>
+            <value>
+                <fullName>Drive Innovation</fullName>
+                <default>false</default>
+                <label>Drive Innovation</label>
+            </value>
+            <value>
+                <fullName>Increase Efficiency</fullName>
+                <default>false</default>
+                <label>Increase Efficiency</label>
+            </value>
+            <value>
+                <fullName>Employee Retention</fullName>
+                <default>false</default>
+                <label>Employee Retention</label>
+            </value>
+            <value>
+                <fullName>Employee Time Saved</fullName>
+                <default>false</default>
+                <label>Employee Time Saved</label>
+            </value>
+            <value>
+                <fullName>Net Promoter Score</fullName>
+                <default>false</default>
+                <label>Net Promoter Score</label>
+            </value>
+            <value>
+                <fullName>Developer Productivity</fullName>
+                <default>false</default>
+                <label>Developer Productivity</label>
+            </value>
+            <value>
+                <fullName>Meet Compliance Standard</fullName>
+                <default>false</default>
+                <label>Meet Compliance Standard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

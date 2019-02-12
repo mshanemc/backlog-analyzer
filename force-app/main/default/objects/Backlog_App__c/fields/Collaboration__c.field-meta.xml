@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collaboration__c</fullName>
+    <externalId>false</externalId>
+    <label>Collaboration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Collaboration</fullName>
+                <default>false</default>
+                <label>No Collaboration</label>
+            </value>
+            <value>
+                <fullName>Some Collaboration</fullName>
+                <default>false</default>
+                <label>Some Collaboration</label>
+            </value>
+            <value>
+                <fullName>Heavy Collaboration</fullName>
+                <default>false</default>
+                <label>Heavy Collaboration</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

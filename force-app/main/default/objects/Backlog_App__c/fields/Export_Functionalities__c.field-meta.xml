@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Export_Functionalities__c</fullName>
+    <externalId>false</externalId>
+    <label>Export Functionalities</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Export Reports in Excel, csv</fullName>
+                <default>false</default>
+                <label>Export Reports in Excel, csv</label>
+            </value>
+            <value>
+                <fullName>Export any records (from list view) in Excel, csv</fullName>
+                <default>false</default>
+                <label>Export any records (from list view) in Excel, csv</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Security_and_Sharing__c</fullName>
+    <externalId>false</externalId>
+    <label>Security and Sharing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Public access, no need for private access</fullName>
+                <default>false</default>
+                <label>Public access, no need for private access</label>
+            </value>
+            <value>
+                <fullName>Private access to records with limited sharing requirements</fullName>
+                <default>false</default>
+                <label>Private access to records with limited sharing requirements</label>
+            </value>
+            <value>
+                <fullName>Flexible sharing with internal and external users, fine granular access, all authenticated access.  Single sign on</fullName>
+                <default>false</default>
+                <label>Flexible sharing with internal and external users, fine granular access, all authenticated access.  Single sign on</label>
+            </value>
+            <value>
+                <fullName>Additional encryption at rest required (BYOK)</fullName>
+                <default>false</default>
+                <label>Additional encryption at rest required (BYOK)</label>
+            </value>
+            <value>
+                <fullName>Highly regulated market, end-to-end encryption required</fullName>
+                <default>false</default>
+                <label>Highly regulated market, end-to-end encryption required</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

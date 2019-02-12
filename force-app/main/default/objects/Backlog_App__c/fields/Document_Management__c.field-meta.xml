@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Management__c</fullName>
+    <externalId>false</externalId>
+    <label>Document Management</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No unstructured data (documents and files) stored and managed</fullName>
+                <default>false</default>
+                <label>No unstructured data (documents and files) stored and managed</label>
+            </value>
+            <value>
+                <fullName>Simple storage of attachments (PDF, jpg, etc.)</fullName>
+                <default>false</default>
+                <label>Simple storage of attachments (PDF, jpg, etc.)</label>
+            </value>
+            <value>
+                <fullName>Integration with external DMS systems e.g. Sharepoint</fullName>
+                <default>false</default>
+                <label>Integration with external DMS systems e.g. Sharepoint</label>
+            </value>
+            <value>
+                <fullName>Integration of external systems inlc. logic (PIM, PLM, SCM etc.)</fullName>
+                <default>false</default>
+                <label>Integration of external systems inlc. logic (PIM, PLM, SCM etc.)</label>
+            </value>
+            <value>
+                <fullName>Large filesize, collaborative file creation (authoring), versioning and publication</fullName>
+                <default>false</default>
+                <label>Large filesize, collaborative file creation (authoring), versioning and publication</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

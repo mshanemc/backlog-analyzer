@@ -1,0 +1,13 @@
+{
+  "orgName": "backlog-analyzer",
+  "edition": "Developer",
+  "features": ["Communities", "SiteDotCom", "Sites", "ExternalSharing"],
+  "settings": {
+    "orgPreferenceSettings" : {
+      "networksEnabled": true,
+      "s1DesktopEnabled": true,
+      "pathAssistantsEnabled": true,
+      "s1EncryptedStoragePref2": false
+    }
+  }
+}

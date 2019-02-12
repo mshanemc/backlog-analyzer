@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration__c</fullName>
+    <externalId>false</externalId>
+    <label>Integration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No integration</fullName>
+                <default>false</default>
+                <label>No integration</label>
+            </value>
+            <value>
+                <fullName>Batch integration</fullName>
+                <default>false</default>
+                <label>Batch integration</label>
+            </value>
+            <value>
+                <fullName>Realtime point-to-point or via middleware</fullName>
+                <default>false</default>
+                <label>Realtime point-to-point or via middleware</label>
+            </value>
+            <value>
+                <fullName>Realtime integration with high volume and high frequency, multiple systems, internal and external legacy apps</fullName>
+                <default>false</default>
+                <label>Realtime integration with high volume and high frequency, multiple systems, internal and external legacy apps</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
