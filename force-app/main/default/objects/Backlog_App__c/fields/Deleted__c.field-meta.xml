@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Deleted</label>
+    <type>Checkbox</type>
+    <fullName>Deleted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This app is deleted and no longer visible to customers</description>
+    <inlineHelpText>This app is deleted and no longer visible to customers</inlineHelpText>
+    <trackHistory>true</trackHistory>
+</CustomField>
