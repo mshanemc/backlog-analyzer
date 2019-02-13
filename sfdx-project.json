@@ -5,7 +5,7 @@
             "default": true,
             "package": "backlogAnalyzer",
             "versionName": "ver 0.1",
-            "versionNumber": "0.2.0.NEXT"
+            "versionNumber": "0.3.0.NEXT"
         },
         {
             "path": "implementation"
@@ -16,6 +16,7 @@
     "sourceApiVersion": "45.0",
     "packageAliases": {
         "backlogAnalyzer": "0Ho6A000000k9dOSAQ",
-        "backlogAnalyzer@0.2.0-1": "04t6A000002zgAgQAI"
+        "backlogAnalyzer@0.2.0-1": "04t6A000002zgAgQAI",
+        "backlogAnalyzer@0.3.0-1": "04t6A000002zgAvQAI"
     }
 }
