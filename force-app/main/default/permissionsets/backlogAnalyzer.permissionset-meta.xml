@@ -154,6 +154,11 @@
         <editable>true</editable>
         <field>Backlog_App__c.Deleted__c</field>
     </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <editable>true</editable>
+        <field>Backlog__c.Is_Completed__c</field>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>backlogAnalyzer</label>
     <objectPermissions>

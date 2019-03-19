@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Is Completed</label>
+    <type>Checkbox</type>
+    <fullName>Is_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>the user has requested the results of this backlog</description>
+    <inlineHelpText>the user has requested the results of this backlog</inlineHelpText>
+</CustomField>

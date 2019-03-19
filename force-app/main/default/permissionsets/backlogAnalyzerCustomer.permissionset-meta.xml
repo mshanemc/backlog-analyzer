@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">    
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldPermissions>
         <editable>true</editable>
         <field>Backlog_App__c.Authentication__c</field>
@@ -149,6 +149,11 @@
         <readable>true</readable>
         <editable>true</editable>
         <field>Backlog_App__c.Deleted__c</field>
+    </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <editable>true</editable>
+        <field>Backlog__c.Is_Completed__c</field>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>backlogAnalyzerCustomer</label>
